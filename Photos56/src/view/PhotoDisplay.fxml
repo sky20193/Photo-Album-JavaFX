@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="596.0" prefWidth="738.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PhotoDisplayController">
+   <children>
+      <ImageView fx:id="imgView" fitHeight="477.0" fitWidth="738.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="captionLabel" layoutX="36.0" layoutY="493.0" prefHeight="21.0" prefWidth="257.0" text="caption" />
+      <Label fx:id="dateLabel" layoutX="36.0" layoutY="540.0" prefHeight="21.0" prefWidth="263.0" text="date" />
+      <ListView fx:id="tagLV" layoutX="317.0" layoutY="481.0" prefHeight="115.0" prefWidth="421.0" />
+   </children>
+</AnchorPane>
